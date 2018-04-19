@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0DD8FF71-2DD3-407F-9BD5-DB7F86600E87}"
 	ProjectSection(SolutionItems) = preProject
@@ -21,6 +21,8 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeploymentValidation", "Provisioning\DeploymentValidation\DeploymentValidation\DeploymentValidation.csproj", "{4522C03D-3267-4092-8FB8-612B24B2368F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMusicStore.Tests", "MvcMusicStore.Tests\MvcMusicStore.Tests.csproj", "{81556845-0EC3-4407-8E28-BBD00C580FD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4522C03D-3267-4092-8FB8-612B24B2368F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4522C03D-3267-4092-8FB8-612B24B2368F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4522C03D-3267-4092-8FB8-612B24B2368F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81556845-0EC3-4407-8E28-BBD00C580FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81556845-0EC3-4407-8E28-BBD00C580FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81556845-0EC3-4407-8E28-BBD00C580FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81556845-0EC3-4407-8E28-BBD00C580FD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{32DCD27D-A84C-4250-B657-408B3620A9AC} = {0DD8FF71-2DD3-407F-9BD5-DB7F86600E87}
 		{4522C03D-3267-4092-8FB8-612B24B2368F} = {0DD8FF71-2DD3-407F-9BD5-DB7F86600E87}
+		{81556845-0EC3-4407-8E28-BBD00C580FD5} = {0DD8FF71-2DD3-407F-9BD5-DB7F86600E87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3841C713-8250-4BC5-A611-14BDF4A6F31D}
